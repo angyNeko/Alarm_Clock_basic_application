@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nathan/OneDrive/Desktop/AlarmClockbasicapplication/app/src/main/res/layout/activity_add_alarm.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Nathan/OneDrive/Desktop/AlarmClockbasicapplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Nathan/OneDrive/Desktop/AlarmClockbasicapplication/app/src/main/res/layout/activity_set_alarm.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nathan/OneDrive/Desktop/AlarmClockbasicapplication/app/src/main/res/layout/activity_manage_time.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nathan/OneDrive/Desktop/AlarmClockbasicapplication/app/src/main/res/layout/activity_set_alarm.xml" value="0.22" />
         <entry key="..\:/Users/Nathan/OneDrive/Desktop/AlarmClockbasicapplication/app/src/main/res/layout/activity_splash.xml" value="0.25" />
       </map>
     </option>

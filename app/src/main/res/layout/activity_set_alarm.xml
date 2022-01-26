@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".SetAlarmActivity">
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/editAlarm"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Edit Alarm"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmsRecycleB"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/alarmsRecycleB"
+        android:layout_width="380dp"
+        android:layout_height="612dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addAlarm"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="Add Alarm"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmsRecycleB"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

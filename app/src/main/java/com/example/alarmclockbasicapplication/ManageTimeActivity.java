@@ -4,15 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SetAlarmActivity extends AppCompatActivity {
+public class ManageTimeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_set_alarm);
-        setTitle("Current Alarms");
-
-
-
+        setContentView(R.layout.activity_manage_time);
     }
 }
